@@ -1,18 +1,23 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
   <head>
     <!-- Meta Section -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
+    <title>CDS Reveal Test v2</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Style Section -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reveal.css">
+    <link rel="stylesheet" type="text/css" href="css/theme/moon.css">
     <style>
       body {
           padding-top: 50px;
           padding-bottom: 20px;
+      }
+      #rapid-sepsis-assesment-tool {
+        font-size: 81%;
       }
     </style>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -23,7 +28,218 @@
   <body>
     <!-- Navbar Section -->
     <!-- Main Section -->
+    <div class="reveal">
+      <div class="slides">
+        <!-- Slide 2 -->
+        <section>
+          <section>
+            <h1>&quotTime Zero&quot Overview</h1>
+            <h2><a href="#/0/2">Evaluate for shock</a></h2>
+            <h2>Assess breathing (Place Oxygen)</h2>
+            <h2>Initiate IV access</h2>
+            <ul>
+              <li>Two (2) IVs, if possible</li>
+              <li>OK to use Broviac/central line</li>
+              <li>Know IO equipment location</li>
+            </ul>
+            <h2><a href="#/0/5">Initiate lab testing</a></h2>
+          </section>
+          <section>
+            <h1>Evaluate for shock</h1>
+            <h2>Rapid Sepsis Assesment</h1>
+          </section>
+          <section>
+            <table id="rapid-sepsis-assesment-tool">
+            <caption>Rapid Sepsis Assessment Tool</caption>
+            <tr>
+            <td style="background-color:#3a69a6; color:#fff">1</td>
+            <td>
+            <p><small>Two of the following (one must be TEMP or WBC):</small></p>
+            <ul>
+            <li>TEMP &gt 38.5 of &lt 36</li>
+            <li>WBC as per <a href="#sepsis-vital-signs">table</a> below.</li>
+            <li>HR as per <a href="#sepsis-vital-signs">table</a> below.</li>
+            <li>RR as per <a href="#sepsis-vital-signs">table</a> below.</li>
+            <li><span style="color:red">If YES</span> then <span style="color:red">SIRS</li></p>
+            </ul>
+            </td>
+            </tr>
+            <tr>
+              <td style="background-color:#3a69a6; color:#fff">2</td>
+              <td>
+                <ul>
+                  <li>Infection suspected?</li>
+                  <li><span style="color:red">If YES</span> then <span style="color:red">SEPSIS</span></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color:#3a69a6; color:#fff">3</td>
+              <td>
+                <ul>
+                  <li>End-organ dysfuntion? (See table below)</li>
+                  <li><span style="color:red">If YES</span> then <span style="color:red">SEVERE SEPSIS</span></li>
+                  <li>Call MD immediately.</li>
+                  <li>Consider sending labs.</li>
+                  <li><a href="#period-one">START SEVERE SEPSIS GUIDLINE IMMEDIATELY!</a></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color:#3a69a6; color:#fff">4</td>
+              <td>
+                <ul>
+                  <li>Hypotention?</li>
+                  <li><span style="color:red">If YES</span> then <span style="color:red">SEPTIC SHOCK</li>
+                  <li><a href="#period-one">START SEVERE SEPSIS GUIDLINE IMMEDIATELY!</a></li>
+                </ul>
+              </td>
+            </tr>
+            </table>
+            <h4><a href="index.html">Top</a></h4>
+          </section>
+          <section>
+            <table id="sepsis-vital-signs">
+            <caption>Rapid Sepsis Assessment Vitals Table</caption>
+            <tr>
+            <th class="ctr">Age Group</th>
+            <th class="ctr">WBC</th>
+            <th class="ctr">Tachy-cardia</th>
+            <th class="ctr">Brady-cardia</th>
+            <th class="ctr">Resp. Rate</th>
+            <th class="ctr">Systolic BP</th>
+            </tr>
+            <tr>
+            <td nowrap>0d - 1wk</td>
+            <td nowrap>&gt 34</td>
+            <td class="ctr">&gt 180</td>
+            <td class="ctr">&lt 100</td>
+            <td class="ctr">&gt 50</td>
+            <td class="ctr">&lt 65</td>
+            </tr>
+            <tr>
+            <td nowrap>1wk - 1mo</td>
+            <td nowrap>&gt 19.5 or &lt 5</td>
+            <td class="ctr">&gt 180</td>
+            <td class="ctr">&lt 100</td>
+            <td class="ctr">&gt 40</td>
+            <td class="ctr">&lt 75</td>
+            </tr>
+            <tr>
+            <td nowrap>1mo - 24mo</td>
+            <td nowrap>&gt 17.5 or &lt 5</td>
+            <td class="ctr">&gt 180</td>
+            <td class="ctr">&lt 90</td>
+            <td class="ctr">&gt 34</td>
+            <td class="ctr">&lt 100</td>
+            </tr>
+            <tr>
+            <td nowrap>2 - 5yrs</td>
+            <td nowrap>&gt 15.5 or &lt 6</td>
+            <td class="ctr">&gt 140</td>
+            <td class="ctr">na</td>
+            <td class="ctr">&gt 22</td>
+            <td class="ctr">&lt 94</td>
+            </tr>
+            <tr>
+            <td nowrap>6 - 12yrs</td>
+            <td nowrap>&gt 13.5 or &lt 4.5</td>
+            <td class="ctr">&gt 130</td>
+            <td class="ctr">na</td>
+            <td class="ctr">&gt 18</td>
+            <td class="ctr">&lt 105</td>
+            </tr>
+            <tr>
+            <td nowrap>13 - &lt18yrs</td>
+            <td nowrap>&gt 11 or &lt 4.5</td>
+            <td class="ctr">&gt 110</td>
+            <td class="ctr">na</td>
+            <td class="ctr">&gt 14</td>
+            <td class="ctr">&lt 117</td>
+            </tr>
+            </table>
+          </section>
+          <section>
+            <table id="rapid-sepsis-end-organ-criteria">
+            <caption>Rapid Sepsis Assessment End-Organ Criteria Table</caption>
+            <tr>
+              <td style="vertical-align:top"><b>End-Organ Dysfuntion</b></td>
+              <td>
+                <ul>
+                  <li>Lethargic, irritable, altered mental status (not just cranky) <b>OR</b></li>
+                  <li>Poor perfusion (CRT &gt 3 secs) <b>OR</b></li>
+                  <li>Decreased urine output (&lt 0.5 mL/kg/hr) <b>OR</b></li>
+                  <li>ANY bilateral infiltrates on CXR and need for oxygen.</li>
+                </ul>
+              </td>
+            </tr>
+            </table>
+          </section>
+          <section>
+            <h1>Initiate Lab Testing</h1>
+            <table id="poc-labs">
+              <caption>Draw POC Labs</caption>
+              <tr>
+                <td style="vertical-align:top">Tests</td>
+                <td>
+                  <ul>
+                    <li>C/V/A Blood Gas</li>
+                    <li>Electrolytes</li>
+                    <li>Glucose</li>
+                    <li>Lactate</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+            <table id="hospital-labs">
+              <caption>Draw Hospital Labs</caption>
+              <tr>
+                <td style="vertical-align:top">Tests</td>
+                <td>
+                  <ul>
+                    <li>CBC</li>
+                    <li>Chem 8</li>
+                    <li>Cultures</li>
+                      <ul>
+                        <li>Blood (min 1 mL)</li>
+                        <li>ETT (if intubated)</li>
+                        <li>Urine</li>
+                        <li>CSF</li>
+                      </ul>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </section>
+        </section> <!-- End Slide 2 -->
+      </div> <!-- .slides -->
+    </div> <!-- .reveal -->
     <!-- Footer Section -->
     <!-- JavaScripts Section -->
+    <script type="text/javascript" src="js/vendor/reveal.js"></script>
+    <script type="text/javascript" src="js/vendor/head.min.js"></script>
+    <script>
+      Reveal.initialize({
+        // Application-specific configuration
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.2,
+
+        // Enable page number display
+        slideNumber: true,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: true,
+
+        // Third-party dependencies
+        dependencies: [
+          // Enable cross-browser shim to implement HTML5 Element.classList
+          { src: 'js/vendor/classList.js', condition: function() { return !document.body.classList; } },
+
+          // Enable zoom in and out with Alt+click
+          { src: 'js/vendor/plugin/zoom.js', async: true }
+        ]
+      });
+    </script>
   </body>
 </html>
